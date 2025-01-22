@@ -12,4 +12,5 @@ function checkAnswer() {
         p.innerText="That's incorrect. Try again!"
     }
 }
-document.getElementById("submit-answer").addEventListener("click", checkAnswer);
+const button = document.getElementById("submit-answer");
+button.addEventListener("click", checkAnswer)
