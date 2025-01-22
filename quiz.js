@@ -1,6 +1,5 @@
 
-const userAnswer = document.querySelector('input[name="quiz"]:checked')?.value;
-console.log(userAnswer);
+
 const correctAnswer = "4";
 const p = document.getElementById("feedback");
 
